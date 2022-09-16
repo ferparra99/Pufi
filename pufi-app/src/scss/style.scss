@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap');
 @import '_baserules';
-@import '_header';
-@import '_body';
-@import '_footer';
+@import './components/header';
+@import './components/body';
+@import './components/body';
+@import './containers/subscribe';

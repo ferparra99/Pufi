@@ -1,20 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap");
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-.viewHome {
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
   height: 100vh;
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.image {
+.background {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -24,23 +35,26 @@
 }
 
 .logo {
-  width: 10%;
-  height: 10%;
+  width: 12%;
+  height: 12%;
   font-size: 29px;
   padding: 20px 20px 20px 20px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: white;
 }
 
-.options {
+.menu {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   align-items: start;
   justify-items: center;
   padding: 20px 20px 20px 20px;
+  color: white;
+  text-decoration: none;
 }
 
-.options a {
-  text-decoration: none;
-  color: black;
+.menu .img:hover {
+  size: 40px;
 }
 
 .options a > img {
@@ -75,6 +89,8 @@
   z-index: 1;
   position: relative;
   margin-top: -500px;
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 .center > button {
@@ -87,4 +103,92 @@
   padding: 30px;
   font-size: 20px;
   cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > h5 {
+  padding: 80px 0px 20px 0px;
+  color: rgb(142, 136, 136);
+}
+
+.container > h2 {
+  padding: 0px 0px 80px 0px;
+}
+
+.container > h6 {
+  margin-top: -68px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.container > input {
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form > input {
+  padding: 10px;
+  width: 600px;
+  border: none;
+  background-color: transparent;
+}
+
+.form > button {
+  cursor: pointer;
+  width: 76px;
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.form > button > img {
+  width: 28px;
+}
+
+h3 {
+  text-align: center;
+  padding: 30px;
 }/*# sourceMappingURL=style.css.map */

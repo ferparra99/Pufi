@@ -1,32 +1,43 @@
 import React from "react"; 
-import "../scss/_header.scss";
+import Beach from "../images/beach.png"
+import	Beanbag from "../icons/bean-bag.png"
+import	Umbrella from "../icons/umbrella.png"
+import	Shopbag from "../icons/shopping-bag.png"
+import	Backpack from "../icons/backpack.png"
+import "../scss/components/_header.scss";
+
 
 
 const Header = () => {
 
     return (
+
         <React.Fragment>
-            <div class="viewHome">
-                <img className="image" src="https://i.imgur.com/PeRpRaV.jpg" alt="relax"></img>
+
+            <img className="background" src={Beach} alt="Mujer bailando en la playa"></img>
+
+            <div className="header">
                 <div className="logo">
                     <h1>Pufi</h1>
                 </div>
                 <div className="options">
-                    <a href="#"><img src="https://i.imgur.com/vhCKnNZ.png" alt="puff"></img><p>PUFI PUFF</p></a>                 
-                    <a href="#"><img src="https://i.imgur.com/Lh1vfW8.png" alt="umbrella"></img><p>PUFI RAIN</p></a>
-                    <a href="#"><img src="https://i.imgur.com/8rIRBgM.png" alt="bag"></img><p>PUFI CART</p></a>
-                    <a href="#"><img src="https://i.imgur.com/piVWHTq.png" alt="cushion"></img><p>PUFI NAP</p></a>   
-                </div>
+                    <a href="#"><img src={Beanbag} alt="Puff" ></img><p>PUFI RAIN</p></a>           
+                    <a href="#"><img src={Umbrella} alt="Sombrilla"></img><p>PUFI RAIN</p></a>
+                    <a href="#"><img src={Shopbag} alt="Bolsa de compras"></img><p>PUFI RAIN</p></a>
+                    <a href="#"><img src={Backpack} alt="Mochila"></img><p>PUFI RAIN</p></a>                </div>
                 <div className="count">
                     <div>MI CUENTA ▼ | MI COMPRA</div>
                 </div>      
             </div>
             <div className="center">
-                <h1>ESTÁR CÓMODO, NUNCA FUE TAN FÁCIL.</h1>
+                <h2>ESTÁR CÓMODO, NUNCA FUE TAN FÁCIL.</h2>
                 <button>SHOP</button>
             </div> 
+
         </React.Fragment>
+
     );
 }
+
 export default Header;
 

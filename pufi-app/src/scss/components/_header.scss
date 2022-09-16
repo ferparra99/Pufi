@@ -1,12 +1,14 @@
-.viewHome {
+@import '../_baserules';
+
+.header {
     height: 100vh;
     width: 100%;
     object-fit: contain;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.image {
+.background {
     object-fit: cover;
     width: 100%;
     height: 100vh;
@@ -15,23 +17,26 @@
 }
 
 .logo {
-    width: 10%;
-    height: 10%;
+    width: 12%;
+    height: 12%;
     font-size: 29px;
     padding: 20px 20px 20px 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: white;
 }
 
-.options {
+.menu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     align-items: start;
     justify-items: center;
     padding: 20px 20px 20px 20px;
+    color: white;    
+    text-decoration: none;
 }
 
-.options a {
-    text-decoration: none;
-    color: black;
+.menu .img:hover{
+    size: 40px;
 }
 
 .options a > img {
@@ -67,6 +72,8 @@
     z-index: 1;
     position: relative;
     margin-top: -500px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .center > button {
