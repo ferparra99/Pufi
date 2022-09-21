@@ -7,10 +7,10 @@ export const Body = () => {
     return (
 
     <React.Fragment>
-
-        <Products />
-        <Subscribe />
-
+        <section className="body">
+            <Products />
+            <Subscribe />
+        </section>
     </React.Fragment>
 
     );

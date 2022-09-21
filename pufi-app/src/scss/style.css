@@ -8,21 +8,18 @@
   font-family: "Roboto", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
 .header {
   height: 100vh;
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  align-content: stretch;
   display: flex;
   grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .background {
@@ -41,44 +38,46 @@
   padding: 20px 20px 20px 20px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: white;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.075);
 }
 
 .menu {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: start;
-  justify-items: center;
+  justify-content: center;
   padding: 20px 20px 20px 20px;
   color: white;
   text-decoration: none;
+  overflow: hidden;
+  list-style: none;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.075);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.menu a, .menu a:link, .menu a:visited, .menu a:active {
+  color: white;
+  right: 50px;
+  text-decoration: none;
+}
+.menu p:hover {
+  size: 50px;
+  color: rgb(0, 0, 0);
 }
 
-.menu .img:hover {
-  size: 40px;
-}
-
-.options a > img {
+.menu .a .img {
   width: 76%;
 }
 
-.options a > p {
+.menu a > p {
   margin-top: 5px;
 }
 
-.picCaption {
-  position: absolute;
-  text-align: center;
-  z-index: 999;
-  max-height: 100%;
-  overflow: hidden;
-  bottom: 0;
-  top: 0;
-}
-
-.count {
-  font-size: 20px;
+.porfile {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 25px;
+  color: white;
   padding: 20px 20px 20px 20px;
-  margin-left: 50%;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.075);
 }
 
 .center {
@@ -95,38 +94,13 @@
 
 .center > button {
   color: white;
-  border: white 5px solid;
-  box-shadow: 10px 10px rgb(0, 0, 0);
+  border: white 3px solid;
   margin-top: 200px;
   margin-bottom: 168px;
   background-color: transparent;
   padding: 30px;
   font-size: 20px;
   cursor: pointer;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
 }
 
 .products {
