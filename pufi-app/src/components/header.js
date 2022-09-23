@@ -21,13 +21,13 @@ const Header = () => {
                             <h1>Pufi</h1>
                         </div>
                         <div className="menu">
-                            <a href="#"><img src={Beanbag} alt="Puff" ></img><p>PUFI<br></br>RAIN</p></a>
+                            <a href="#"><img src={Beanbag} alt="Puff" ></img><p>PUFI PUFF</p></a>
                             <span></span>
-                            <a href="#"><img src={Umbrella} alt="Sombrilla"></img><p>PUFI<br></br>RAIN</p></a>
+                            <a href="#"><img src={Umbrella} alt="Sombrilla"></img><p>PUFI RAIN</p></a>
                             <span></span>
-                            <a href="#"><img src={Shopbag} alt="Bolsa de compras"></img><p>PUFI<br></br>RAIN</p></a>
+                            <a href="#"><img src={Shopbag} alt="Bolsa de compras"></img><p>PUFI CART</p></a>
                             <span></span>
-                            <a href="#"><img src={Backpack} alt="Mochila"></img><p>PUFI<br></br>RAIN</p></a>
+                            <a href="#"><img src={Backpack} alt="Mochila"></img><p>PUFI NAP</p></a>
                         </div>
 
                         <div className="porfile">

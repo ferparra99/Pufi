@@ -9,17 +9,17 @@
 }
 
 .header {
-  height: 100vh;
-  width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  align-content: stretch;
   display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
   flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4051995798) 0%, rgba(0, 212, 255, 0) 100%);
+}
+.header div img {
+  width: 2.5em;
 }
 
 .background {
@@ -32,8 +32,7 @@
 }
 
 .logo {
-  width: 12%;
-  height: 12%;
+  text-align: end;
   font-size: 29px;
   padding: 20px 20px 20px 20px;
   font-family: "M PLUS Rounded 1c", sans-serif;
@@ -42,11 +41,10 @@
 }
 
 .menu {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: start;
-  justify-content: center;
+  display: flex;
+  text-align: center;
   padding: 20px 20px 20px 20px;
+  justify-content: center;
   color: white;
   text-decoration: none;
   overflow: hidden;
@@ -58,47 +56,70 @@
   color: white;
   right: 50px;
   text-decoration: none;
+  padding: 20px 20px 20px 20px;
 }
 .menu p:hover {
   size: 50px;
   color: rgb(0, 0, 0);
 }
-
-.menu .a .img {
-  width: 76%;
+.menu span {
+  height: 4em;
+  width: 0.1em;
+  border-radius: 10%;
+  align-self: center;
+  background-color: white;
 }
-
 .menu a > p {
   margin-top: 5px;
 }
 
 .porfile {
+  width: 13em;
+  display: flex;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 25px;
   color: white;
   padding: 20px 20px 20px 20px;
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.075);
 }
+.porfile h2 {
+  font-size: 0.7em;
+  align-self: center;
+}
+.porfile span {
+  height: 1em;
+  width: 0.1em;
+  border-radius: 10%;
+  align-self: center;
+  background-color: white;
+  margin-left: 0.1em;
+  margin-right: 0.5em;
+}
+.porfile p {
+  width: 0.5em;
+  margin: 0.5em;
+  margin-bottom: 1.01em;
+  transform: rotate(180deg);
+}
 
 .center {
+  height: 47em;
+  justify-content: space-around;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
   align-items: center;
-  z-index: 1;
-  position: relative;
-  margin-top: -500px;
   font-family: "Roboto", sans-serif;
   color: white;
 }
-
-.center > button {
+.center h2 {
+  font-size: 4em;
+}
+.center button {
   color: white;
   border: white 3px solid;
-  margin-top: 200px;
-  margin-bottom: 168px;
   background-color: transparent;
-  padding: 30px;
+  padding: 1.5em 2.5em;
   font-size: 20px;
   cursor: pointer;
 }
