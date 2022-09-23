@@ -8,7 +8,7 @@ const Body = () => {
     /*const [state, handleSubmit] = useForm("mpznqvoq");
     if (state.succeeded) {
         return <h3>Thank you for signing up!</h3>;
-    }*/
+    }
     
     return (
         <div className="container">
@@ -30,6 +30,7 @@ const Body = () => {
             </form>
         </div>
     );
+    */
 }
 
 export default Body;
