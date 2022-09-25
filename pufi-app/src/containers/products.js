@@ -13,18 +13,55 @@ const Products = () => {
         <React.Fragment>
 
            <div className="products">
-                <img src={Person_with_umbrella} alt="Persona con paraguas"></img>
-                <img src="https://via.placeholder.com/600"></img>
-                <img src="https://via.placeholder.com/600"></img>
-                <img src={Beach_puff} alt="Persona descansando en un puff"></img>
-                <img src={Market_discharge} alt="Familia bajando las compras del coche"></img>
-                <img src="https://via.placeholder.com/600"></img>
-                <img src="https://via.placeholder.com/600"></img>
-                <img src={Person_wiht_travel_pillow} alt="Persona durmiendo con una almohada de viaje"></img>
+
+                {/* ROW 1 
+                    S: IMAGEN + BOTON "SHOP"
+                    S: TEXTO SOMBRILLA
+                */}
+
+                <div className="pufi-image">
+                    <button>S H O P</button>
+                </div>
+                
+                <div className="pufi-slide">
+                    <img src="https://xlshop.vteximg.com.br/arquivos/ids/192766-1000-1000/XT1SNH01U0425.jpg?v=637665337876130000" alt="Pufi Rain"></img>
+                    <h3>Pufi RAIN</h3>
+                    <span></span>
+                    <p>Descripcion del producto. Este es un texto simulado</p>
+                    <button> VER MÁS</button>
+
+                </div>
+
+                {/* ROW 2 
+                    S: TEXTO PUFF
+                    S: PUFF PLAYA
+                */}
+
+                <div className="pufi-slide">
+                    <img src="https://avatars.mds.yandex.net/get-mpic/4120716/img_id3258551118685313926.jpeg/orig" alt="Pufi Puff"></img>
+                    <h3>Pufi PUFF</h3>
+                    <span></span>
+                    <p>Descripcion del producto. Este es un texto simulado</p>
+                    <button> VER MÁS</button>
+
+                </div>
+
+                <div className="pufi-image"></div>
+
+                {/* ROW 3 */}
+
+                
            </div>
 
         </React.Fragment>
 
+           /* <img src="https://via.placeholder.com/600" alt="Pufi Buff"></img>                
+            <img src={Beach_puff} alt="Persona descansando en un puff" className="slide-img"></img>
+            <img src={Market_discharge} alt="Familia bajando las compras del coche"></img>
+            <img src="https://via.placeholder.com/600" alt="Pufi Cart"></img>
+            <img src="https://via.placeholder.com/600" alt="Pufi Nap"></img>
+            <img src={Person_wiht_travel_pillow} alt="Persona durmiendo con una almohada de viaje" className="slide-img"></img>
+            */
     );
 }
 

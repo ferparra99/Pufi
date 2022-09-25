@@ -3,8 +3,91 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
 
-    img{
-        width: 100%;
-        height: 100%;
+
+
+    //SLIDE DE IMAGEN
+
+    .pufi-image {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background: url("../../../src/images/person_with_umbrella.jpg") center;
+
+        //BOTON BLANCO DE SLIDE
+        button {
+
+            color: white;
+            border: white 0.15em solid;
+            background-color: transparent;
+            padding: 1.5em 2.5em;
+            font-size: 20px;
+            cursor: pointer;
+            position: absolute;
+
+        }
     }
+
+    //OPACIDAD DE FONDO
+
+    .pufi-image::before {
+        background-color: rgba(0, 0, 0, 0.37);
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+
+    }
+
+
+    //SLIDE DE POST
+
+
+    .pufi-slide {
+
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 9em;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 1.5em;
+            padding: 2em;
+        }
+
+        span {
+            width: 2.5em;
+            height: 0.1em;
+            margin-bottom: 1em;
+            border-radius: 50%;
+            background-color: black;
+        }
+
+        p {
+            width: 15em;
+            text-align: center;
+            margin: 1em;
+        }
+
+        button {
+
+            background-color: transparent;
+            padding: 1.5em 2.5em;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+    }
+
+
 }
