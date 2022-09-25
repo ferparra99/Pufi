@@ -13,7 +13,11 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        background: url("../../../src/images/person_with_umbrella.jpg") center;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
 
         //BOTON BLANCO DE SLIDE
         button {
@@ -48,7 +52,7 @@
     .pufi-slide {
 
         width: 100%;
-        height: 50em;
+        height: 40em;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -79,7 +83,6 @@
         }
 
         button {
-
             background-color: transparent;
             padding: 1.5em 2.5em;
             font-size: 20px;

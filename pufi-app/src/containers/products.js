@@ -20,6 +20,7 @@ const Products = () => {
                 */}
 
                 <div className="pufi-image">
+                    <img src={Person_with_umbrella}></img>
                     <button>S H O P</button>
                 </div>
                 
@@ -47,7 +48,7 @@ const Products = () => {
                 </div>
 
                 <div className="pufi-image"></div>
-
+                    
                 {/* ROW 3 */}
 
                 
