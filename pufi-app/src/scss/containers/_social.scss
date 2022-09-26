@@ -1,0 +1,29 @@
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+        margin-top: 5em;
+        font-size: 1.125em;
+        color: gray;
+    }
+
+    p{
+        font-size: 3.125em;
+    }
+ 
+    .collage {
+        margin-top: 3.438em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: stretch;
+
+        img{
+            width: 15.625em;
+            height: 15.625em;
+        }
+    }
+}
