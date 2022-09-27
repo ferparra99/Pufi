@@ -39,6 +39,12 @@ const Header = () => {
                         <h2>ESTÁR CÓMODO,<br></br>NUNCA FUE TAN FÁCIL.</h2>
                         <button>SHOP</button>
                     </div>
+                    <div className="radio-buttom">
+                        <input type={"radio"}></input>
+                        <input type={"radio"}></input>
+                        <input type={"radio"}></input>
+
+                    </div>
                 </div>
             </section>
         </React.Fragment>

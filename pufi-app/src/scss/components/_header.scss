@@ -1,3 +1,4 @@
+
 .header { 
     object-fit: contain;
     //align-content: stretch;
@@ -17,7 +18,7 @@
 .background {
     object-fit: cover;
     width: 100%;
-    height: 56.2em;
+    height: 47.2em;
     position: absolute;
     z-index: -1;
 }
@@ -71,13 +72,10 @@
 }
 
 .porfile {
-    width: 13em;
+  
     display: flex;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 25px;
     color: white;
-    padding: 20px 20px 20px 20px;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.075);
+
 
     h2{
         font-size: 0.7em;
@@ -103,7 +101,7 @@
 }
 
 .center {
-    height: 47em;
+    height: 35em;
     justify-content: space-around;
     display: flex;
     flex-direction: column;
@@ -114,14 +112,32 @@
 
     h2{
     font-size: 4em;
+    text-shadow: 2px 2px rgba(69, 69, 69, 0.386);
+
     }
 
     button {
     color: white;
     border: white 3px solid;
     background-color: transparent;
-    padding: 1.5em 2.5em;
-    font-size: 20px;
+    padding: 1em 2em;
+    font-size: 1em;
     cursor: pointer;
     }
+
+    
+}
+
+.radio-buttom{
+
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 6em;
+    height: 3em;
+
+    input{
+        background: red;
+    }
+
 }

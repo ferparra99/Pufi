@@ -11,6 +11,7 @@ const Subscribe = () => {
                 <h3>NEWSLETTER</h3>
                 <h4>SUSCRIBETE</h4>
                 <p>Y enterate de todas las novedades</p>
+                
                 <form onSubmit="handleSubmit">
                     <fieldset className="form">
                         <input id="email" name="email" type="email" placeholder="Ingresa tu email"></input>
