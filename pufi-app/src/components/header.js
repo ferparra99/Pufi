@@ -37,7 +37,7 @@ const Header = () => {
 
                     <div className="center">
                         <h2>ESTÁR CÓMODO,<br></br>NUNCA FUE TAN FÁCIL.</h2>
-                        <button>SHOP</button>
+                        <button>S H O P</button>
                     </div>
                     <div className="radio-buttom">
                         <input type={"radio"}></input>
